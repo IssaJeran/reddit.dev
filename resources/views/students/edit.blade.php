@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('content')
-    <h1>Edit a student information</h1>
+    <h1>Edit Account Information</h1>
 
     <form action="{{ action('StudentsController@update', [23]) }}" method="post">
         @include('partials.students-form')

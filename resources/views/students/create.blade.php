@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('content')
-    <h1>Create a student</h1>
+    <h1>Create a User</h1>
 
     <form action="{{ action('StudentsController@store') }}" method="post">
         @include('partials.students-form')
